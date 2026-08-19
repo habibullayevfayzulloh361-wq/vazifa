@@ -1,6 +1,6 @@
 import asyncio
 
-async def a():
+async def s():
     matn = input("Matn: ")
 
     result1 = ""
@@ -10,4 +10,4 @@ async def a():
             result1 += matn[i]
         i += 1
     print(result1)
-asyncio.run(a())
+asyncio.run(s())
